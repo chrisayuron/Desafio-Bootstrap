@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FINAL MISION Chrisayuron</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<!-- @chrisayuron -->
+<body>
+  <header class="mb-3">
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(0, 0, 134); color:#fff;">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#" style="color:#fff">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="background-color:#fff;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01" style="width:50%;" style="background-color:white;">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" style="color:#fff">Inicio
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color:#fff" data-bs-toggle="dropdown" href="#" role="button"
+                aria-haspopup="true" aria-expanded="false">Contenido</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#acerca">Acerca</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#opiniones">Opiniones</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#preguntas">Preguntas Frecuentes</a>
+
+
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-ink" href="#" style="color:#fff" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Registro</a>
+              <!-- Modal  @chrisayuron -->-->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="color:black;">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Registro</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" >
+                      <p>Ingresa los datos para poder comunicarnos pronto</p>
+                      <form action="">
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                          <input type="text" id='nombre' class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
+                          <input type="text" id='apellido'class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                          <input type="email" id='email' class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                          <input type="text" id='telefono' class="form-control" id="exampleFormControlInput1">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" id='Registrar'class="btn btn-primary">Registrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+  </header>
+  <main class="container text-center">
+
+    <section class="acerca" id="acerca">
+      <div class="row justify-content-between">
+        <div class="col-sm-12 col-lg-5 text-start mt-3 mb-3">
+          <h3 class="acerca_title">COEX - Desarrollo de talento TI</h3>
+          <p class="acerca_subtitle">Todo el mundo debería saber programar<br/>
+            porque te enseña a pensar - Steve Jobs
+          </p>
+          <p class="acerca_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ad beatae laborum maxime.</p>
+          <div class="contactanos">
+          <button class="btn-contactanos">Contáctanos</button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-5">
+          <img
+            src="https://us.123rf.com/450wm/manopjk/manopjk1708/manopjk170800048/83688157-publicidad-en-l%C3%ADnea-con-el-hombre-de-negocios-la-celebraci%C3%B3n-de-meg%C3%A1fono-de-tel%C3%A9fonos-m%C3%B3viles-concep.jpg?ver=6"
+            alt="Chrisayuron">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="opiniones" id="opiniones">
+      <h2>¿Que opinan nuestros(as) clientes?</h2>
+      <div class="row justify-content-center gap-3 tarjetas">
+        <div class="card col-md-4 col-sm-12">
+          <img src="./img/iconfinder-4-avatar-2754580_120522.svg" class="card-img-top m-auto mt-2" alt="...">
+          <div class="card-body">
+            <h4>Tania Cruz</h4>
+            <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, laboriosam!</p>
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-12">
+          <img src="./img/iconfinder-12-avatar-2754577_120517.svg" class="card-img-top m-auto mt-2" alt="...">
+          <div class="card-body">
+            <h4>Ramón Viña</h4>
+            <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i></p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, soluta?</p>
+          </div>
+        </div>
+        <div class="card col-md-4 col-sm-12">
+          <img src="./img/iconfinder-9-avatar-2754584_120518.svg" class="card-img-top m-auto mt-2" alt="...">
+          <div class="card-body">
+            <h4>Laura Acosta</h4>
+            <p><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, nemo!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="preguntas" id="preguntas">
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Pregunta 1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorem.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Pregunta 2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, quos!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Pregunta 3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, deleniti.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Pregunta 4
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, iure?</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="registered row container m-auto mb-5">
+      
+    </section>
+  </main>
+
+
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 col-sm-12" >
+        <img src="./img/logo - coex.svg" alt="">
+        <p>&copyChrisayuron</p>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <h6>Empresa</h6>
+        <li>Acerca</li>
+        <li>Servicios</li>
+        <li>Gerencia</li>
+        <li>Fabrica de Software</li>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <h6>Educacion</h6>
+        <li>Selección</li>
+        <li>Módulos</li>
+        <li>Preguntas</li>
+        <li>Mantenimiento</li>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <h6>Contacto</h6>
+        <li>Dirección: Call 35 # 32-85</li>
+        <li>Teléfono: (+57) 311 883 9480</li>
+        <li>Correo: gerencia@coex.com.co</li>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
